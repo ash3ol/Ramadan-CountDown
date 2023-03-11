@@ -3,7 +3,7 @@ body {
 }
 .container {
     margin: 20px 30px;
-    background-image: url(/ramadan/Ramadan-CountDown/images/minimal-4k-purple-night-wallpaper-preview.jpg);
+    background-image: url(../images/minimal-4k-purple-night-wallpaper-preview.jpg);
     background-size: cover;
     border-radius: 10px;
     box-shadow: -4px 17px 7px 0px #596580;
@@ -63,7 +63,7 @@ body {
 
 .container2 {
     margin: 20px 30px;
-    background-image: url(/ramadan/Ramadan-CountDown/images/WallpaperDog-338685.jpg);
+    background-image: url(../images/WallpaperDog-338685.jpg);
     background-size: cover;
     box-shadow: -4px 17px 7px 0px #596580;
     border-radius: 10px;
