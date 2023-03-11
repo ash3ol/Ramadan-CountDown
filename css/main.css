@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(141 220 229);
+}
+.container {
+    margin: 20px 30px;
+    background-image: url(/ramadan/images/minimal-4k-purple-night-wallpaper-preview.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -4px 17px 7px 0px #596580;
+}
+.container .importance,
+.container2 .importance {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 20px;
+    margin: 0;
+}
+.container .starts,
+.container2 .starts {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.container h3,
+.container2 h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding: 20px 0px 0px 20px;
+}
+
+.container .box,
+.container2 .box {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.container .box1,
+.container2 .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 20px 10px;
+    width: calc(100% / 4);
+}
+.container .box1 p,
+.container2 .box1 p {
+    margin: 5px 10px;
+}
+.container .box1 .num,
+.container2 .box1 .num {
+    font-size: 30px;
+}
+
+/* holiday */
+
+.container2 {
+    margin: 20px 30px;
+    background-image: url(/ramadan/images/WallpaperDog-338685.jpg);
+    background-size: cover;
+    box-shadow: -4px 17px 7px 0px #596580;
+    border-radius: 10px;
+}
+.container2 .importance{
+    color: #0c0c0f;
+}
+.container2 .starts{
+    color: #0c0c0f;
+}
+.container2 h3{
+    color: #0c0c0f;
+}
+
+.container2 .box {
+    color: #0c0c0f;
+}
+
+@media (max-width: 450px) {
+    .container h3,
+    .container2 h3 {
+        font-size: calc(0.5rem + 2vw);
+    }
+    .container .importance,
+    .container2 .importance {
+        font-size: calc(0.4rem + 2vw);
+    }
+    .container .starts,
+    .container .starts {
+        font-size: calc(0.4rem + 2vw);
+    }
+    .container .box1 .num,
+    .container2 .box1 .num{
+        font-size: calc(0.5rem + 4vw);
+    }
+    .container .box,
+    .container2 .box{
+        font-size: calc(0.5rem + 1vw);
+    }
+    .container .box1, 
+    .container2 .box1 {
+        padding: 0px 0px 10px 0px;
+    }
+}
